@@ -125,11 +125,3 @@ function updateExpirationDate(data){
   const ccExpiration = document.querySelector(".cc-expiration .value")
   ccExpiration.innerText = data.length === 0 ? "02/32" : data
 }
-
-// const bandeiras = ["default", "visa", "mastercard", "elo", "american"]
-
-// bandeiras.forEach(function(bandeira, i){
-//     setTimeout(() => {
-//       setCardType(bandeira)
-//     }, i * 2000)
-// })
